@@ -1,0 +1,15 @@
+{
+    "ROOT_DIR": "C:/Network security/vae/vae/",
+    "model_name": "vae",
+    "save_dir": "models/",
+    "plot_dir": "plots/",
+    "epoch_num": 30,
+    "batch_size": 512,
+    "lr": 1e-2,
+    "weight_decay": 5e-4,
+    "scaling_method": "minmax",
+    "scalar_path": "data/minmax_scalar.npy",
+    "train_path": "data/train_set.csv",
+    "val_path": "data/eval_set.csv",
+    "test_path": "data/test_set.csv"
+}

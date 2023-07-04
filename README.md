@@ -7,6 +7,7 @@ tqdm
 scikit-learn
 pandas
 lime
+shap
 ```
 
 ### How to run AE and VAE

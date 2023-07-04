@@ -78,7 +78,7 @@ Next,we pay attention to `SHAP_AEorVAE.py`, you can see there is code like:
 `model = AutoEncoder()`
 `model.load_state_dict(torch.load("./models/ae.pth"))`
 Here you can change the model between `AutoEncoder()/VAE()` and `ae.pth/vae.pth` to choose which
-model you want to apply in LIME.
+model you want to apply in SHAP.
 Dont forget to change the picture name at last!
-`plt.savefig("./plots/" + "AE_LIME.jpg", format='jpg')`
+`plt.savefig("./plots/" + "AE_SHAP.jpg", format='jpg')`
 `AE_SHAP/VAE_SHAP`
